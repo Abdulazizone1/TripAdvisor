@@ -23,7 +23,7 @@
     font-weight: bold;
 }
 
-@media(max-width: 580px){
+@media(max-width: 480px){
     #text{
         text-align: center;
     }
