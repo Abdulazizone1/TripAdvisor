@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+ #wholeBody{
+        border: 1px solid red;
+    }
 #jumbotron{
     background-image: url('images/miami.jpg');
     background-size: cover;
