@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div id="wholeBody">
+    <nav role="navigation" class="navbar navbar-inverse" id="myNavbar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Adventure.com</a>
+            <button class="navbar-toggle" data-target="#myCollapseContent" data-toggle="collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="myCollapseContent">
+            <ul class="nav navbar-nav">
+                <li><a href="#accordion">Our Services</a></li>
+                <li><a href="#helpForClients">Help</a></li>
+                <li><a href="#modalContent" data-toggle="modal" aria-hidden="true">Contact Us</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="input-group">
+                <span class="input-group-btn" ><button type="submit" class="btn btn-primary">Go</button></span>
+                <input type="search" placeholder="Search" class="form-control">
+                <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                </div>
+            </form>
+            <form class="navbar-form navbar-right">
+             <button class="btn btn-success SignUp">Log in</button>
+            </form>
+        
+    </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="modal" id="modalContent">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="h3Content">Thank you for sending us ur inquiry</h3>
+                    <button class="close" data-dismiss="modal">&times;</button>              
+                </div>
+                <div class="modal-body">
+                    <label for="message">Your inquiry</label>
+                    <textarea id="message" placeholder="Text input" cols="30" rows="5" class="form-control"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" data-dismiss="modal">Send<Se/button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+
+
+    <div class="jumbotron paddingBottom" id="jumbotron">
+        <div class="container">
+            <img src="images/logo.png" id="logo" alt="">
+            <div class="row">
+                <div class="col-md-9" id="text">
+                <h1>Welcome to the best travel destination finder website.</h1>
+                <p>Here we have a list of wonderful places. <br> You have a chance to visit right now to see beautiful parts of the world.</p>
+                <p><a class="btn btn-warning btn-lg btnPosition SignUp" title=" Watch wonderful places" data-toggle="tooltip" href="#">Find out more</a> <a class="btn btn-warning btn-lg btnPosition SignUp" title="Sing up to be updated" data-toggle="tooltip" href="#">Sign Up</a></p>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <br><br><br><br>
+    <div class="container paddingBottom" id="container1">
+        <img src="images/wings.png" id="logo1" alt="">
+        <br>
+        <br>
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail" id="thumbnailtext1" data-toggle="popover">        
+            <div class="caption">
+                <h3>All-in-one</h3>
+                <p>Book full trips including transport and accommodation</p>
+            </div> 
+            </div>  
+            </div>
+            
+        <div class="col-sm-6 col-md-3">
+            <div class="thumbnail" id="thumbnailtext2" data-toggle="popover">
+                <div class="caption">
+               <h3>Faster</h3>
+               <p>Lowest prices, no booking fees and no platform cost</p>
+             </div>
+         </div>
+      </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail" id="thumbnailtext3" data-toggle="popover">
+                    <div class="caption">
+                   <h3>Cheaper</h3>
+                   <p>Lowest prices, no booking fees and no platform cost</p>
+                 </div>
+             </div>
+          </div>
+            <div class="col-sm-6 col-md-3"> 
+                <div class="thumbnail" id="thumbnailtext4" data-toggle="popover">
+                    <div class="caption">
+                <h3>Safer</h3>
+            <p>Know exactly where your travellers are staying at any time</p>
+        </div>
+    </div>
+    </div>
+            <div class="col-sm-6 col-md-6"> 
+                <div class="thumbnail" id="thumbnailtext5" data-toggle="popover">
+                    <div class="caption">
+                <h3>Happier</h3>
+            <p>Delight all business stakeholders from traveller to CFO</p>
+        </div>
+    </div>
+</div>
+
+            <div class="col-sm-6 col-md-6"> 
+                <div class="thumbnail" id="thumbnailtext6" data-toggle="popover">
+                    <div class="caption">
+                <h3>Trustable</h3>
+                <p>We have built strong trust with our clients. Recognition of CEO</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <div class="container-fluid paddingBottom" id="three">
+     <div id="one" class="col-xs-4 col-md-4">
+         <img src="images/allinone.png" alt="">
+     </div>
+     <div id="two" class="col-xs-6 col-md-7">
+        <label for="one"><h1>All in one place</h1></label>
+         <p>Book and manage all your company’s travel in one easy-to-use tool.</p>
+         <p>Choose from the world’s greatest accommodation selection as well as flights and later this year trains and car rentals to create the perfect itinerary for any work trip.</p>
+         <p>With flexible controls and features, Booking.com for Business can be tailored to all your company’s needs.</p>
+     </div>
+ </div>
+
+
+<div class="jumbotron">
+    <div style="text-align: center;">
+        <h3><strong> Best time to visit</strong></h3>
+        <p><span><img src="images/sun.png" alt=""><img src="images/cloud.png" alt=""><img src="images/calendar.png" alt=""></span></p>
+        <p>A Miami visit is a delight in any season. Temperatures are at their hottest between June and October, climbing to around 85 F (29 C). Seeing Miami in the summer is a great experience if you don’t mind the heat. In winter through spring expect highs of up to around 79 F (26 C). Make sure you consider the festivals held throughout the year, too. Art Basel Miami Beach, in December, is a big one.</p>
+    </div>
+</div>
+
+
+
+<div class="container-fluid paddingBottom" id="helpForClients">
+    <h2 style="text-align: center;"><strong>Popular places to visit</strong></h2>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail miamithumbnali">      
+            <img src="images/miamiPort1.png" style="width: 737px; height: 300px; " alt="">
+            <div class="caption">
+              <h3>Miami Side Walk</h3>
+              <p> During your visit to Miami, you can search for that perfect souvenir at BAyside Marketplace. Wender the beautiful Beaches and seasides in this vibrant area</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail miamithumbnali">
+        <img src="images/miami13.jpg" style="width: 737px; height: 300px; " alt="">
+        <div class="caption">
+          <h3>Miami Beach Board Walk</h3>
+          <p> During your visit to Miami, you can search for that perfect souvenir at BAyside Marketplace. Wender the beautiful Beaches and seasides in this vibrant area</p>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 col-md-4 ">
+    <div class="thumbnail miamithumbnali">
+    <img src="images/miami15.jpg" style="width: 737px; height: 300px;" alt="">
+    <div class="caption">
+      <h3>Miami Downtown</h3>
+      <p> During your visit to Miami, you can search for that perfect souvenir at BAyside Marketplace. Wender the beautiful Beaches and seasides in this vibrant area</p>
+    </div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 ">
+    <div class="thumbnail miamithumbnali">
+    <img src="images/miami13.jpg" style="width: 737px; height: 300px;" alt="">
+    <div class="caption">
+      <h3>Miami ocean side way</h3>
+      <p> During your visit to Miami, you can search for that perfect souvenir at BAyside Marketplace. Wender the beautiful Beaches and seasides in this vibrant area.</p>
+    </div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 ">
+    <div class="thumbnail miamithumbnali">
+    <img src="images/miamiPort.png" style="width: 737px; height: 300px;" alt="">
+    <div class="caption">
+      <h3>Port Miami</h3>
+      <p>Explore the waterfront in Miami Beach with a trip to Port Miami. Humble around this vibrant area's beautiful beaches and enjoy its top-notch restourants. </p>
+    </div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 ">
+    <div class="thumbnail miamithumbnali">
+    <img src="images/hotelmiami.png" style="width: 737px; height: 300px;" alt="">
+    <div class="caption">
+      <h3>Ocen Drive</h3>
+      <p>Explore the waterfront in Miami Beach with a trip to Port Miami. Humble around this vibrant area's beautiful beaches and enjoy its top-notch restourants.</p>
+    </div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 ">
+    <div class="thumbnail miamithumbnali">
+    <img src="images/miamipor2.png" style="width: 737px; height: 300px;" alt="">
+    <div class="caption">
+      <h3>Travel throung Ocean</h3>
+      <p> During your visit to Miami, you can search for that perfect souvenir at BAyside Marketplace. Wender the beautiful Beaches and seasides in this vibrant area</p>
+    </div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 ">
+    <div class="thumbnail miamithumbnali">
+    <img src="images/miamitodo.png" style="width: 737px; height: 300px;" alt="">
+    <div class="caption">
+      <h3>Bayside Marketplace</h3>
+      <p> During your visit to Miami, you can search for that perfect souvenir at BAyside Marketplace. Wender the beautiful Beaches and seasides in this vibrant area</p>
+    </div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4">
+    <div class="thumbnail miamithumbnali">
+    <img src="images/miamistadion.jpg" style="width: 737px; height: 300px; " alt="">
+    <div class="caption">
+      <h3>Hard Rock Stadium</h3>
+      <p>Catch an event at Hard Rock Stadium during your trip to Miami Gardens. Attenda sporting event or simply enjoy the top nutch restaraunts while you are in the area.</p>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+ <div class="jumbotron paddingBottom" id="jumbotronforBooking">
+ <h2><strong>Book the truly connected trip</strong> </h2> <br>
+ <p>Book your entire trip from start to finish and back again from one single tool.</p>
+ <p><a href="#" class="btn btn-primary btn-lg SignUp" title="Sing up to be updated" data-toggle="tooltip" >Sign up now</a></p> <br>
+ <p>It’s free forever! No subscription fees and no booking fees!</p>
+ </div>
+ <div class="container-fluid">
+ <div id="accordion" class="panel-group">
+      <div class="panel">
+          <div class="panel-heading bg-info" style="text-align: center;">
+              <div class="panel-title"><h3><a href="#forINdividuals" data-toggle="collapse"><span> <img src="images/iconIndividual.png" class="resizeIcon" alt=""></span> For Individuals</a></h3>
+              </div>
+            </div>
+       <div class="panel-collpase collapse in" id="forINdividuals">
+      <div class="panel-body">
+       
+             <div id="collapse1" class="col-sm-6 col-md-6 col-lg-6 panelBody">
+                <h3> <span><img src="images/carta.png" alt=""></span> Book complete trips</h3>
+                 <p>Adventure.com for Business offers both travel and accommodation and allows you to book your entire trip all at once.</p>
+             </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 panelBody">
+                    <h3> <span><img src="images/world.png" alt=""></span> World's largest selection</h3>
+                    <p>Select your accommodation from the world’s largest selection across the entire globe. Guaranteed to find the perfect bed that fits in your budget.</p> 
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 panelBody" id="whynotworking1">
+                    <h3> <span><img src="images/three.png" alt=""></span> Fast booking process</h3>
+                 <p>As you use the tool it starts to understand your preferences and gets better and better at recommending options to meet your unique taste.</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 panelBody" id="whynotworking1">
+                    <h3> <span><img src="images/pc.png" alt=""></span> Where and when you need it</h3>
+                 <p>Adventure.com for Business is a truly device agnostic travel management tool that is available where and when you need to book a trip or change your plans.</p> 
+                </div>
+              
+        </div>
+      </div>
+    </div>
+</div>
+<div class="panel-group">
+    <div class="panel"> 
+            <div class="panel-heading bg-info">
+                <div style="text-align: center;" class="panel-title"><h3><a href="#collapseForTeams" data-toggle="collapse"><span><img src="images/iconTeams.png" class="resizeIcon" alt=""></span> For teams</a></h3></div>
+            </div>
+            <div class="panel-collapse collapse" id="collapseForTeams">
+            <div class="panel-body" >
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h3><span><img src="images/bookingP.png" alt=""></span> (De)centralised booking policy</h3>
+                <p>Powerful role management allows you to add your entire team and assign varying permissions.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h3><span><img src="images/setBudget.png" alt=""></span> Set budgets</h3>
+                <p>Make sure your team stays within budget so you can feel comfortable sharing the booking permissions</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h3><span><img src="images/dutyOfCare.png" alt=""></span> Duty of care</h3>
+                <p>Visualise where your travelling team members are so you can provide the necessary support if a situation calls for it.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <h3><span><img src="images/trend.png" alt=""></span> Reporting</h3>
+                <p>Platform reporting capabilities provide full transparency on travel spend and with the world’s largest selection of accommodations rogue travel is minimised.</p>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<div class="panel-group">
+    <div class="panel">
+        <div class="panel-heading bg-info ">
+<div class="panel-title" style="text-align: center;"><h3><a href="#collapseForBusiness" data-toggle="collapse"><span><img src="images/iconBusiness.png" class="resizeIcon" alt=""></span> For businesses</a></h3></div>
+        </div>
+        <div class="panel-collapse collapse" id="collapseForBusiness">
+            <div class="panel-body">
+                <div class="col-sm-6">
+                    <h3><span><img src="images/bookingP.png" alt=""></span> (De)centralised booking policy</h3>
+                <p>Powerful role management allows you to add all your employees and assign varying permissions.</p>
+                </div>
+                <div class="col-sm-6">
+                    <h3><span><img src="images/setBudget.png" alt=""></span> Set budgets</h3>
+                <p>Make sure your people stay within budget so you can feel comfortable sharing the booking permissions.</p>
+                </div>
+                <div class="col-sm-6">
+                    <h3><span><img src="images/dutyOfCare.png" alt=""></span> Duty of care</h3>
+                <p>Visualise where your travelling employees are so you can provide the necessary support if a situation calls for it.</p>
+                </div>
+                <div class="col-sm-6">
+                    <h3><span><img src="images/trend.png" alt=""></span> Reporting</h3>
+                <p>Platform reporting capabilities provide full transparency on travel spend and with the world’s largest selection of accommodations rogue travel is minimised.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container" id="keepSafe">
+
+        <img  src="images/location.png" class="col-sm-4 col-md-4 col-lg-4" alt="">
+   
+    <div class="col-sm-8 col-md-8 col-lg-8" id="textfoImage">
+        <label for="imageLocation"><h1 style="font-weight: bold;" > Keep travellers safe</h1></label>
+        <p>Take care of the wellbeing of your business travellers with a range of safety features designed for an ever-changing world.</p>
+        <p>See exactly where your travellers are staying at any moment and view up-to-date reviews and hygiene measures.</p>
+
+    </div>
+</div>
+    <div class="container" id="keepMOneySafe">
+
+        <img  src="images/savemoney.png" class="col-sm-6 col-md-4 col-lg-4" id="keepMOneySafeimg" alt="">
+    
+    <div class="col-sm-6 col-md-8 col-lg-8" id="textforimageMoney">
+        <label for="imageLocation"><h1 style="font-weight: bold;" >Reduce your travel spend</h1></label>
+        <p>With the lowest price guarantee you’ll start saving from day one.</p><br>
+        <p>Plus the tool automatically tracks your travel spend, showing you where your company can make potential savings.</p> <br>
+        <p>And even better, you won’t pay a cent for the tool.</p>
+
+    </div>
+</div>
+<!-- Time for building carousel -->
+<div class="container-fluid">
+<div class="carousel slide paddingBottom" id="mycarouselforT" data-ride="carousel">
+    
+    <ol class="carousel-indicators">
+        <li class="active" data-target="#mycarouselforT" data-slide-to="0"></li>
+        <li data-target="#mycarouselforT" data-slide-to="1"></li>
+        <li data-target="#mycarouselforT" data-slide-to="2"></li>
+        <li data-target="#mycarouselforT" data-slide-to="3"></li>
+        <li data-target="#mycarouselforT" data-slide-to="4"></li>
+    </ol>
+
+
+<div class="carousel-inner">
+    <div class="item active">
+        <img src="images/bridge2.jpg" alt="">
+        <div class="carousel-caption">
+            <h1>No time wasted</h1>
+            <p>The new Booking.com for Business is designed to save you time.
+
+               <br> Let the technology do the hard work and streamline your travel management.</p>
+        </div>
+    </div>
+        <div class="item">
+            <img src="images/plane.jpg" alt="">
+            <div class="carousel-caption">
+                <h1>More choice for travellers</h1>
+                <p>28M+ accommodation listings worldwide including business hotels, apartments, homes and other unique places to stay.
+
+                   <br> Depending on your location you can also book an extensive range of flights, trains and rental cars, with more choice being added everyday!</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/winter1.jpg"  alt="">
+            <div class="carousel-caption">
+                <h1>Fast booking process</h1>
+                <p>As you use the tool it starts to understand your preferences and gets better <br> and better at recommending options to meet your unique taste.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/dubai.jpg"  alt="">
+            <div class="carousel-caption">
+                <h1>Reduce your travel spend</h1>
+                <p>With the lowest price guarantee you’ll start saving from day  <br>
+
+                    Plus the tool automatically tracks your travel spend, showing you where your company can make potential savings.
+                    
+                   <br> And even better, you won’t pay a cent for the tool.</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/winter1.jpg"  alt="">
+            <div class="carousel-caption">
+                <h1>Keep travellers safe</h1>
+                <p>Take care of the wellbeing of your business travellers with a range of safety features designed for an ever-changing world.
+
+                   <br> See exactly where your travellers are staying at any moment and view up-to-date reviews and hygiene measures.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <a href="#mycarouselforT" data-slide="prev" class="left carousel-control"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a href="#mycarouselforT" data-slide="next" class="right carousel-control"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+</div>
+
+<div class="jumbotron" style="text-align: center;">
+    <div>
+    <h2><strong> Join Advenure.com for Business</strong></h2><br>
+    <p>The no-cost travel platform.</p>
+    <a href="#" class="btn btn-primary btn-lg SignUp" title="Sing up to be updated" data-toggle="tooltip" >Sign up now</a> <br><br><br>
+    <p>It’s free forever! No subscription fees and no booking fees!</p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="contaier-fluid" id="containerForForm">
+    <form id="formForsignUp">
+        <div class="formPosition">
+           <h2>Sign Up</h2> <br>
+            <label for="user">User Name: </label><br>
+        <input type="text" class="inputStyle" placeholder=" Username: " name="user" id="user">
+        </div>
+        <div class="formPosition">
+        <label for="email">Email: </label><br>
+    <input type="email" class="inputStyle" placeholder=" Email: " name="email" id="email">
+    </div>
+    <div class="formPosition">
+    <label for="password">New password: </label><br>
+    <input type="password" class="inputStyle" placeholder=" Password: "  name="password" id="password">
+    </div>
+    <p><a href="#" type="button" id="goBack" class="btn btn-success btnPosition">Go Back</a> <a href="#" id="signUpForOUrWEbsite" class="btn btn-success btnPosition">Sign Up</a> </p>
+    </form>
+   </div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="jQuery.js"></script>
+</body>
+</html>

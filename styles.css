@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#jumbotron{
+    background-image: url('images/miami.jpg');
+    background-size: cover;
+    height: 600px;
+}
+#logo{
+    height: 75px;
+    width: 75px;
+}
+#text{
+    color: white;
+    padding-top: 50px;
+}
+
+.btnPosition{
+    margin-top: 30px;
+    width: 200px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+@media(max-width: 580px){
+    #text{
+        text-align: center;
+    }
+    .btn{
+        margin-left: 10px;
+        width: auto;
+    }
+    #logo{
+        height: 35px;
+        width: 35px;
+    }
+    #logo1{
+        height: 80px;
+        width: 200px;
+    }
+}   
+
+#container1{
+    text-align: center;
+}
+#logo1{
+    margin-top: 30px;
+}
+
+#one{
+    height: 422px;
+    width: 379px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+#two{
+    margin-top: 100px;
+}
+#jumbotronforBooking{
+    margin-top: 20px;
+    height: 360px;
+    text-align: center;
+}
+
+.panelBody{
+    padding: 0;
+    margin: 0;
+    height: 200px;
+}
+#imageLocation{
+    border: 1px solid;
+    margin-right: 50px;
+    height: 415px;
+    width: 435px;
+}
+#keepSafe{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#textfoImage{
+    margin-top: 50px;
+}
+#keepMOneySafe{
+    margin-top: 200px;
+}
+#keepMOneySafeimg{
+    height: 300;
+    width: 365;
+    margin-bottom: 100px;
+}
+
+#textforimageMoney{
+    margin-top: 100px;
+    padding-left: 50px;
+}
+.paddingBottom{
+    margin-bottom: 200px;
+}
+#mycarouselforT{
+    height: auto;
+}
+.item h1, .item p{
+    color: black;
+}
+.miamithumbnali:hover{
+    background-color: aliceblue;
+    box-shadow: 3px 3px 3px black;
+}
+.media{
+    height: 200px;
+    width: auto;
+}
+#imageColor{
+    color: rgb(2, 24, 24);
+    background-color: bisque;
+}
+.resizeIcon{
+    height: 35px;
+    width: auto;
+}
+#containerForForm{
+    border: 1px solid;
+    display: none;
+    height: auto;
+    background-image: url('images/bg1.jpg');
+}
+#formForsignUp{
+    height: 550px;
+    width: 450px;
+    border: 1px solid rgb(37, 29, 109);
+    margin: 50px auto;
+    border-radius: 20px;
+}
+.formPosition{
+    color: gray;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    background-color: rgba(red, green, blue, 0.5);
+}
+.inputStyle{
+    height: 35px;
+    width: 200px;
+    border: 1px solid blue;
+    border-radius: 35px;
+}
+.inputStyle:focus{
+    height: 38px;
+    width: 270px;
+    border: 1px solid rgb(4, 4, 236);
+}
+#footerForFooter{
+    background-color: black;
+    color: rgb(199, 13, 13);
+}
