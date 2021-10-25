@@ -23,23 +23,7 @@
     font-weight: bold;
 }
 
-@media(max-width: 480px){
-    #text{
-        text-align: center;
-    }
-    .btn{
-        margin-left: 10px;
-        width: auto;
-    }
-    #logo{
-        height: 35px;
-        width: 35px;
-    }
-    #logo1{
-        height: 80px;
-        width: 200px;
-    }
-}   
+  
 
 #container1{
     text-align: center;
@@ -153,3 +137,26 @@
     background-color: black;
     color: rgb(199, 13, 13);
 }
+@media(max-width: 480px){
+    #text{
+        text-align: center;
+    }
+    .btn{
+        margin-left: 10px;
+        width: auto;
+    }
+    #logo{
+        height: 35px;
+        width: 35px;
+    }
+    #logo1{
+        height: 80px;
+        width: 200px;
+    }
+    #formForsignUp{
+        height: 550px;
+        width: 350px;
+        margin: 50px auto;
+        border-radius: 20px;
+    }
+} 
