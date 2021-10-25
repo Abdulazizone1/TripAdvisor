@@ -105,7 +105,7 @@
 }
 #containerForForm{
     border: 1px solid;
-    display: none;
+    
     height: auto;
     background-image: url('images/bg1.jpg');
 }
@@ -155,7 +155,7 @@
     }
     #formForsignUp{
         height: 550px;
-        width: 350px;
+        width: 300px;
         margin: 50px auto;
         border-radius: 20px;
     }
