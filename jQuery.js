@@ -40,7 +40,7 @@ $(function(){
         html : true,
         content : '<div class="media"><img src="images/miamitodo.png" class="media" alt="Sample Image"></div>'
     });
-    $('#one').popover({
+    $('one').popover({ 
         placement : 'right',
 		trigger : 'hover',
         html : true,
