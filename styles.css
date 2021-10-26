@@ -163,4 +163,15 @@
         margin: 50px auto;
         border-radius: 20px;
     }
+       #imageLocation{
+        width: 250px;
+    }
+    #keepMOneySafeimg{
+        width: 300px;
+    }
+    #formForsignUp{
+        height: 550px;
+        width: 300px;
+    }
+   
 } 
