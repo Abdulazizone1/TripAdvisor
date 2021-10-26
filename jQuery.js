@@ -40,24 +40,24 @@ $(function(){
         html : true,
         content : '<div class="media"><img src="images/miamitodo.png" class="media" alt="Sample Image"></div>'
     });
-    $('one').popover({ 
-        placement : 'right',
+    $('#one').popover({
+        placement : 'top',
 		trigger : 'hover',
         html : true,
         content : '<div class="media"><img src="images/miamipor2.png" class="media" alt="Sample Image"></div>'
     });
      $('.SignUp').click(function(){
-     $('#wholeBody').hide();
+       $('#wholeBody').hide();
       $('#containerForForm').show();
     });
     $('#goBack').click(function(){
         $('#wholeBody').show();
-        $('#containerForForm').hide();
+      $('#containerForForm').hide();
        window.alert('Warning! Your work maynot be saved')
     });
    $('#signUpForOUrWEbsite').click(function(){
     $('#wholeBody').show();
-    $('#containerForForm').hide();
+  $('#containerForForm').hide();
     window.alert('Thank you for signing up !');
 });
 
